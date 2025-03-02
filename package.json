@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"source-map-js": "^1.2.1",
+		"stacktrace-js": "^2.0.2"
+	},
+	"devDependencies": {
+		"@types/node": "^22.13.5",
+		"tsx": "^4.19.3"
+	}
+}
