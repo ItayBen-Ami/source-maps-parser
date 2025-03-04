@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <div>
-        <button onClick={() => {throw new Error("Hello")}}/>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
