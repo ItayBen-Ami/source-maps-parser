@@ -4,7 +4,7 @@ _Companion code for my blog post on using Source Maps for better debugging._
 ## Overview  
 This repository contains code demonstrating how to **parse minified stack traces using Source Maps**, as covered in my blog post:  
 
-📖 **Read the full post here** → https://dev.to/itaybenami/how-i-leveraged-source-maps-to-improve-my-teams-debugging-2a6f-temp-slug-22424?preview=7a46d3130a0443c834964fbbb165ab5c1854e9d20141762369f7660df1b911058416d3f8d877133f5ef84f62ba4cc089ed3d75a8897ffd9578c7b2e6  
+**Read the full post [here](https://dev.to/itaybenami/how-i-leveraged-source-maps-to-improve-my-teams-debugging-1f3c)** 
 
 The project includes:  
 - **`my-app/`** → A sample Vite + React app, demonstrating how Source Maps work.  
