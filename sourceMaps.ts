@@ -52,7 +52,7 @@ const loadSourceMaps = async () => {
     const fileName = sourceMapFile.name;
     if (fileName.includes('.map')) {
       const file = await fs.readFile(path.join(sourceMapsPath, fileName), 'utf-8');
-      sourceMapConsumers[fileName] = await new SourceMapConsumer(JSON.parse(file));
+      sourceMapConsumers[fileName] = new SourceMapConsumer(JSON.parse(file));
     }
   }
 };
